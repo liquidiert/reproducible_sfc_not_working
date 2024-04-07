@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "tw:watch": "rm -rf static/CACHE && tailwindcss -i ./static/input.css -o ./static/css/output.css --watch",
+    "tw:build": "tailwindcss -i ./static/input.css -o ./static/css/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
